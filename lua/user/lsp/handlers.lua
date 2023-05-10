@@ -5,7 +5,7 @@ if not status_cmp_ok then
 	return
 end
 
-M.capabilities = cmp_nvim_lsp.default_capabilities(M.capabilities)
+-- M.capabilities = cmp_nvim_lsp.default_capabilities(M.capabilities)
 
 M.setup = function()
 	local signs = {

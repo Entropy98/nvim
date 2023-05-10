@@ -1,3 +1,6 @@
+#pyenv
+.python-version
+
 # Compiled Lua sources
 luac.out
 

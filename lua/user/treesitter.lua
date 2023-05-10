@@ -15,9 +15,11 @@ local M = {
     },
   },
 }
+
 function M.config()
   local treesitter = require "nvim-treesitter"
   local configs = require "nvim-treesitter.configs"
+  require 'nvim-treesitter.install'.compilers = { "zig", "gcc" }
 
   configs.setup {
     ensure_installed = { "lua", "markdown", "markdown_inline", "bash", "python" }, -- put the language you want in this array

@@ -1,6 +1,6 @@
 local M = {
-  "neoclide/coc.nvim",
-  branch = "release",
+  "Entropy98/coc.nvim",
+  branch = "master",
   event = "VeryLazy"
 }
 
